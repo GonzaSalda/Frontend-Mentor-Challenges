@@ -1,15 +1,16 @@
 import React from 'react'
+import NavBarAncla from './NavBarAncla'
 
 const NavBar = () => {
   return (
     <>
-          <nav className="flex gap-10 absolute p-8">
-              <a href="#">Room</a>
-              <div className='flex gap-6 text-white font-semibold'>
-                  <a href="#">Home</a>
-                  <a href="#">Shop</a>
-                  <a href="#">Abot</a>
-                  <a href="#">Contact</a>
+          <nav className="absolute p-8 flex gap-10 items-center ">
+              <a href="#" className='text-white text-4xl mb-2'>Room</a>
+              <div className='flex gap-6 text-white'>
+                <NavBarAncla text = 'Home'/>
+                <NavBarAncla text = 'Shop'/>
+                <NavBarAncla text = 'About'/>
+                <NavBarAncla text = 'Contact'/>
               </div>
           </nav>
   </>

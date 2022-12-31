@@ -1,5 +1,6 @@
 import imgHero1 from "./assets/images/desktop-image-hero-1.jpg";
 import imageAboutLight from './assets/images/image-about-light.jpg'
+import imageAboutDark from './assets/images/image-about-dark.jpg'
 import ArrowIcon from './components/ArrowIcon'
 import PrevIcon from './components/PrevIcon'
 import NextIcon from './components/NextIcon'
